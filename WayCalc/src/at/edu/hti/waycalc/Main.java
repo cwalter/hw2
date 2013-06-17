@@ -10,7 +10,7 @@ public class Main {
     Matrix matrix = new Matrix();
     try {
       if (args.length <= 0) {
-        throw new NullPointerException("Provide an absolte file path to the matrix resource file, e.g. /testfiles/matrix.txt");
+        throw new NullPointerException("Provide an absolute file path to the matrix resource file, e.g. /testfiles/matrix.txt");
       }
       matrix.load(args[0]);
 
